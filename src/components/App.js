@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import hogs from '../porkers_data';
+import hogs from '../data/porkers_data'; 
 import Nav from './Nav';
 import HogTile from './HogTile';
 import HogForm from './HogForm';
