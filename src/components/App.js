@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import hogs from '../data/porkers_data'; 
+import hogs from '../data/porkers_data'; // This import is necessary for state
 import Nav from './Nav';
 import HogTile from './HogTile';
 import HogForm from './HogForm';
 
 function App() {
-  const [hogsState, setHogsState] = useState(hogs);
+  const [hogsState, setHogsState] = useState(hogs); // Using hogs to initialize state
   const [filterGreased, setFilterGreased] = useState(false);
   const [sortBy, setSortBy] = useState('');
 
