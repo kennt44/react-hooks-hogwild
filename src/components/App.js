@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+ eslint-disable-next-line no-unused-vars
 import hogs from '../data/porkers_data'; // This import is necessary for state
 import Nav from './Nav';
 import HogTile from './HogTile';
