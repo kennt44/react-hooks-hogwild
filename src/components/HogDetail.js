@@ -16,4 +16,4 @@ const HogDetail = ({hog}) => (
 
 );
 
-export default HogDetail:
+export default HogDetail
