@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import HogForm from './components/HogForm';  // Correct import path
-import HogTile from './components/HogTile';  // Correct import path
-import FilterSort from './components/FilterSort';  // Correct import path
-import porkersData from './porkers_data'; // Import the data correctly
-import 'semantic-ui-css/semantic.min.css';  // Semantic UI CSS for styling
-import './index.css';  // Custom styling
+import HogForm from './components/HogForm';  
+import HogTile from './components/HogTile';  
+import FilterSort from './components/FilterSort';  
+import porkersData from './porkers_data'; 
+import Nav from "../components/nav";
+import 'semantic-ui-css/semantic.min.css';  
+import './index.css';  
 
 const App = () => {
   const [hogs, setHogs] = useState([]);
@@ -21,7 +22,7 @@ const App = () => {
   const getVisibleHogs = () => {
     let filteredHogs = hogs;
 
-    // Filter by greased hogs if the filter is checked
+    
     if (filterGreased) {
       filteredHogs = filteredHogs.filter((hog) => hog.greased);
     }

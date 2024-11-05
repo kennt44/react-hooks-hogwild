@@ -1,7 +1,7 @@
 const hogs = [
     {
-      name: "Ken",
-      specialty: "Tech wiz",
+      name: "babe",
+      specialty: "being incredibly cute",
       greased: false,
       weight: 2.0,
       "highest medal achieved": "bronze",
