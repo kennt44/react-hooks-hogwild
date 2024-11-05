@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import HogForm from './HogForm';
-import HogTile from './HogTile';
-import FilterSort from './FilterSort';
-import porkersData from './porkers_data'; // Assuming porkers_data is the data source
-import Nav from './Nav'; 
-import 'semantic-ui-css/semantic.min.css';
-import './index.css';
+import HogForm from './components/HogForm';  // Correct import path
+import HogTile from './components/HogTile';  // Correct import path
+import FilterSort from './components/FilterSort';  // Correct import path
+import porkersData from './porkers_data'; // Import the data correctly
+import 'semantic-ui-css/semantic.min.css';  // Semantic UI CSS for styling
+import './index.css';  // Custom styling
 
 const App = () => {
   const [hogs, setHogs] = useState([]);
